@@ -18,10 +18,10 @@ tags
 .AppleDouble
 .LSOverride
 
-### Bitcoind ###
+### Local Files ###
 data/
-conf/
-
-
-
-
+src/conf/bitcoin.conf
+src/conf/fulcrum.conf
+src/certs/server*
+fulcrum_db/
+fulcrum_binary/

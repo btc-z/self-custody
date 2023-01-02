@@ -1,0 +1,29 @@
+version: '3.8'
+services:
+  bitcoind:
+    image: ruimarinho/bitcoin-core:23
+    container_name: bitcoind
+    command:
+      -printtoconsole
+      -conf=/home/bitcoin/conf/bitcoin.conf
+    ports:
+      - 8332:8332
+      - 8333:8333
+      - 28332:28332
+    volumes:
+      - ./data:/home/bitcoin/.bitcoin
+      - ./conf:/home/bitcoin/conf
+
+  fulcrum:
+    build: 
+      context: .
+      dockerfile: ./fulcrum.Dockerfile
+    depends_on: [bitcoind]
+    command: ["/bin/Fulcrum", "/home/conf/fulcrum.conf"]
+    ports:
+      - 50001:50001
+      - 50002:50002
+    volumes:
+      - ./fulcrum_db:/home/fulcrum_db
+      - ./certs:/home/certs
+      - ./conf/fulcrum.conf:/home/conf/fulcrum.conf
