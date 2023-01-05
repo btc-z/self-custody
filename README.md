@@ -82,3 +82,9 @@ Make sure you have created an SSL certificate for the fulcrum server. Otherwise:
 
 Please submit issues/questions [here](https://github.com/btc-z/self-custody/issues). 
 
+--- 
+
+[Buy me a coffee if this project helped you](https://www.buymeacoffee.com/btcz)
+
+
+![bmc_qr](https://user-images.githubusercontent.com/119766095/210685968-d2c6aaa4-13ba-4e30-bdb8-1d417c35df2c.png)
