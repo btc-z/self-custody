@@ -1,5 +1,7 @@
 # Self Custody
 
+A more detailed explanation can be found [here](https://medium.com/@btc-z/programmers-guide-to-bitcoin-self-custody-623eeac4405a)
+
 ## Run `bitcoind`
 
 1. update `bitcoin.conf`
