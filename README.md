@@ -64,6 +64,10 @@ Batched RPC enabled.
 Server Banner: Connected to a Fulcrum 1.9.0 server
 ```
 
+## Local Blockchain Explorer
+
+TODO
+
 
 ## Troubleshooting
 
