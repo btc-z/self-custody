@@ -69,7 +69,7 @@ Server Banner: Connected to a Fulcrum 1.9.0 server
 
 ### SSL Certificate
 
-Make sure you have created an SSL certificate for the fulcrum server. Otherwise:
+Make sure you have created an SSL certificate for the fulcrum server. Otherwise, create your SSL certificate using the following commands:
 
 1. install `openssl`
 2. `openssl genrsa -des3 -out server.pass.key 2048`
