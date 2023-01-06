@@ -80,7 +80,7 @@ Make sure you have created an SSL certificate for the fulcrum server. Otherwise:
 7. `rm server.csr`
 8. move `server*` to `certs` folder.
 
-## Issues
+### Issues
 
 Please submit issues/questions [here](https://github.com/btc-z/self-custody/issues). 
 
